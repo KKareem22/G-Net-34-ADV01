@@ -1,4 +1,5 @@
-﻿using System.ComponentModel;
+﻿using G_Net_34_ADV01.Classes;
+using System.ComponentModel;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace G_Net_34_ADV01
@@ -69,6 +70,15 @@ namespace G_Net_34_ADV01
             //Generic interfaces define contracts with type parameters. Classes implementing them specify the actual types.
 
             #endregion
+            #region Q07
+            //Q7: What is the 'struct' constraint? Write an exampl?
+            //where T : struct restricts T to value types only. Useful when you need value semantics (copy, no null).
+
+
+            //Q07<int> q = new();
+            //q.DisplaySum(8, 9);
+            #endregion
+
         }
         #region Swap Function
         public static void Swap<T>(ref T a,ref T b)
