@@ -78,6 +78,19 @@ namespace G_Net_34_ADV01
             //Q07<int> q = new();
             //q.DisplaySum(8, 9);
             #endregion
+            #region Q08
+            //Q8: What is the 'class' constraint? Write an example.
+            //where T : class restricts T to reference types only. This allows T to be null and enables reference comparison.
+
+
+            //Cache<string> cacheString = new();
+            //Console.WriteLine($"Is Null :{cacheString.ISNull()}");
+            //cacheString.SetCache("Kareem");
+            //Console.WriteLine(new string('_',20)+"After Set value"+new string('_',20));
+            //Console.WriteLine($"Is Null  :{cacheString.ISNull()}");
+            #endregion
+
+
 
         }
         #region Swap Function

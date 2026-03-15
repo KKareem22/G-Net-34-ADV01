@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace G_Net_34_ADV01
+namespace G_Net_34_ADV01.Classes
 {
     internal class Container<T>
     {
