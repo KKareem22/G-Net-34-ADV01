@@ -148,6 +148,23 @@ namespace G_Net_34_ADV01
             // Use default when you need to initialize or return a "zero" value without knowing the type.
 
             #endregion
+            #region Q14
+            //Q14: Write a SafeList<T> that returns default when the index is invalid.
+
+
+            ////1)Example with array of intger
+            //int[] numbers = [5, 10, 15];
+            //SafeList<int> nums = new SafeList<int>(numbers);
+            //Console.WriteLine($"Element of index [1] :{nums.GetItem(1)}");
+            //Console.WriteLine($"Element of index [5] :{nums.GetItem(5)}");
+
+            ////2)Example with array of string
+            //Console.WriteLine(new string('*',40));
+            //string[] names = ["Kareem", "Rawan", "Rana"];
+            //SafeList<string> Listnames = new SafeList<string>(names);
+            //Console.WriteLine($"Element of index [1] :{Listnames.GetItem(1)}");
+            //Console.WriteLine($"Element of index [5] :{Listnames.GetItem(5)}");
+            #endregion
 
 
         }
