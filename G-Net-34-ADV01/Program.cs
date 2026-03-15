@@ -40,7 +40,35 @@ namespace G_Net_34_ADV01
             //Console.WriteLine($"Pair01 -> {pair01}");
 
             #endregion
+            #region Q04
+            //Q4: What is a generic method? Write Swap<T> method.
+            //A generic method declares its own type parameter(s). It can exist in both generic and non-generic classes. The compiler often infers the type argument.
+
+            //int x = 5, y = 15;
+            //Console.WriteLine($"Before Swapping ::x={x},y={y}");
+            //Swap(ref x, ref y);
+            //Console.WriteLine($"After Swapping ::x={x},y={y}");
+
+            //Console.WriteLine(new string('*',50));
+            ////other example with string
+            //string name1 = "Kareem", name2 = "Rawan";
+            //Console.WriteLine($"Before Swapping ::name1={name1},name2={name2}");
+            //Swap(ref name1, ref name2);
+            //Console.WriteLine($"After Swapping ::name1={name1},name2={name2}");
+
+            #endregion
+
 
         }
+        #region Swap Function
+        public static void Swap<T>(ref T a,ref T b)
+        {
+            T temp;
+            temp = a;
+            a = b;
+            b = temp;
+
+        }
+        #endregion
     }
 }
