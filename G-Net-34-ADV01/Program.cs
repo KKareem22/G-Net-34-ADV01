@@ -141,6 +141,13 @@ namespace G_Net_34_ADV01
             //var book= new Book() { Title="Clean Code"};
             //Console.WriteLine(c.CreateEmpty<Book>());
             #endregion
+            #region Q13
+            //Q13: What does the 'default' keyword do in generics?
+            //answer:
+            //default(T) or default returns the default value for type T: null for reference types, 0/false for value types.
+            // Use default when you need to initialize or return a "zero" value without knowing the type.
+
+            #endregion
 
 
         }
