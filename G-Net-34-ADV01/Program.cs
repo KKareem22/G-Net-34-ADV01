@@ -1,4 +1,5 @@
 ﻿using G_Net_34_ADV01.Classes;
+using G_Net_34_ADV01.Classes.Q09;
 using System.ComponentModel;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -89,8 +90,26 @@ namespace G_Net_34_ADV01
             //Console.WriteLine(new string('_',20)+"After Set value"+new string('_',20));
             //Console.WriteLine($"Is Null  :{cacheString.ISNull()}");
             #endregion
+            #region Q09
+            //Q9: What is the 'new()' constraint? Write an example.
+            //where T : new() requires T to have a public parameterless constructor. This allows you to create instances of T inside the generic code.
 
 
+            //Factory<ClsUser> factory = new();
+            //var Users = factory.CreateMany(3);
+            //foreach (var user in Users)
+            //{
+            //    Console.WriteLine(user);
+            //}
+
+            #endregion
+            #region Q10
+            //Q10:  What is the interface constraint? Write an example.
+            //where T : IInterface requires T to implement a specific interface. This enables calling interface methods on type parameter.
+
+            //Console.WriteLine($"5.7+4= {Calculate<double>.Add(5.7,4)}");
+
+            #endregion
 
         }
         #region Swap Function
