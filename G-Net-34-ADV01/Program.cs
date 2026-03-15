@@ -1,4 +1,6 @@
-﻿namespace G_Net_34_ADV01
+﻿using System.ComponentModel;
+
+namespace G_Net_34_ADV01
 {
     internal class Program
     {
@@ -13,9 +15,22 @@
             //3)Performance
             //4)Type Safety
             #endregion
+            #region Q02
+            //: Write a generic class Container<T> with Add and Get methods?
 
 
+            //Container<int> container = new();
+            //container.Add(1);
+            //container.Add(2);
+            //container.Add(3);
+            //foreach (var item in container.GetAll())
+            //{
+            //    Console.WriteLine(item);
+            //}
 
-        }
+            #endregion
+
+
+}
     }
 }
