@@ -1,5 +1,6 @@
 ﻿using G_Net_34_ADV01.Classes;
 using G_Net_34_ADV01.Classes.Q09;
+using G_Net_34_ADV01.Classes.Q11;
 using System.ComponentModel;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -110,7 +111,24 @@ namespace G_Net_34_ADV01
             //Console.WriteLine($"5.7+4= {Calculate<double>.Add(5.7,4)}");
 
             #endregion
+            #region Q11
+            //Q11: What is the base class constraint? Write an example.
+            //It is a rule that specifies that the generic type argument (T) must be the specified base class or inherit from it. This allows the code to safely access all members (properties and methods) of that base class.
 
+            //Correct exmaple
+
+            //var HR = new HR_System();
+            //var engineer=new Engineer();
+            //engineer.Name = "Kareem";
+            //HR.ProcessEmployee(engineer);//استخدام Engineer (صح - لأنه وارث من Employee)
+            
+            //////wrong example
+            ///
+            ////var robot = new Robot();
+            ////robot.Name = "Robot1";
+            ////HR.ProcessEmployee(robot);//Compile Error
+            
+            #endregion
         }
         #region Swap Function
         public static void Swap<T>(ref T a,ref T b)
