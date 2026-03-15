@@ -57,7 +57,13 @@ namespace G_Net_34_ADV01
             //Console.WriteLine($"After Swapping ::name1={name1},name2={name2}");
 
             #endregion
+            #region Q05
+            //Q5: Write a generic method FindMax<T> that finds maximum value?
 
+
+            //int[] numbers = [5, 9, 4, 11, 3, 7];
+            //Console.WriteLine($"The Max Number in Array is ={Max(numbers,numbers.Length)}");
+            #endregion
 
         }
         #region Swap Function
@@ -70,5 +76,18 @@ namespace G_Net_34_ADV01
 
         }
         #endregion
+        #region FindMax
+        public static T Max<T>(T[] arr,int n) where T :IComparable<T>
+        {
+            T max = arr[0];
+            for(int i=0;i<n;i++)
+            {
+                if (arr[i].CompareTo(max) > 0)
+                    max = arr[i];
+            }
+            return max;
+        }
+        #endregion
+
     }
 }
