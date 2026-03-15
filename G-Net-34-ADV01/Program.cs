@@ -64,7 +64,11 @@ namespace G_Net_34_ADV01
             //int[] numbers = [5, 9, 4, 11, 3, 7];
             //Console.WriteLine($"The Max Number in Array is ={Max(numbers,numbers.Length)}");
             #endregion
+            #region Q06
+            //Q6: What is a generic interface? Write IRepository<T>?
+            //Generic interfaces define contracts with type parameters. Classes implementing them specify the actual types.
 
+            #endregion
         }
         #region Swap Function
         public static void Swap<T>(ref T a,ref T b)
