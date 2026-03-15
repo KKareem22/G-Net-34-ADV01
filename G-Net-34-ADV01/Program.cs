@@ -1,6 +1,7 @@
 ﻿using G_Net_34_ADV01.Classes;
 using G_Net_34_ADV01.Classes.Q09;
 using G_Net_34_ADV01.Classes.Q11;
+using G_Net_34_ADV01.Classes.Q12;
 using System.ComponentModel;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -121,14 +122,27 @@ namespace G_Net_34_ADV01
             //var engineer=new Engineer();
             //engineer.Name = "Kareem";
             //HR.ProcessEmployee(engineer);//استخدام Engineer (صح - لأنه وارث من Employee)
-            
+
             //////wrong example
             ///
             ////var robot = new Robot();
             ////robot.Name = "Robot1";
             ////HR.ProcessEmployee(robot);//Compile Error
-            
+
             #endregion
+            #region Q12
+            //How do you apply multiple constraints? Write an example.
+            /*
+             * You can combine multiple constraints for a single type parameter, and have different constraints for different type parameters.
+             * Order matters: class/struct first, then interfaces, then new() last!
+             */
+
+            //Container2 c = new();
+            //var book= new Book() { Title="Clean Code"};
+            //Console.WriteLine(c.CreateEmpty<Book>());
+            #endregion
+
+
         }
         #region Swap Function
         public static void Swap<T>(ref T a,ref T b)
