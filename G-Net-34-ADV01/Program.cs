@@ -165,6 +165,13 @@ namespace G_Net_34_ADV01
             //Console.WriteLine($"Element of index [1] :{Listnames.GetItem(1)}");
             //Console.WriteLine($"Element of index [5] :{Listnames.GetItem(5)}");
             #endregion
+            #region Q15
+            //Q15: What is covariance? Explain the 'out' keyword.
+            //Answer:
+            //Covariance allows you to use a more derived type than originally specified. Marked with out keyword. T can only appear in output positions.
+            //It is commonly used with Interfaces like IEnumerable<T> and IQueryable<T>.
+
+            #endregion
 
 
         }
