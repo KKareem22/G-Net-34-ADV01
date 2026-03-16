@@ -201,9 +201,9 @@ namespace G_Net_34_ADV01
             #region Q20
             //Q20: Complete Exercise - Create a generic Cache<TKey, TValue>with Add, Get, Remove, Contains, and expiration support. 
 
-            var myCache = new MyCache<string, string>(10);
-            myCache.Add("user1", "ActiveSession", 1);            
-            Console.WriteLine(myCache.Get("user1"));
+            //var myCache = new MyCache<string, string>(10);
+            //myCache.Add("user1", "ActiveSession", 1);            
+            //Console.WriteLine(myCache.Get("user1"));
 
  
             #endregion
