@@ -193,7 +193,10 @@ namespace G_Net_34_ADV01
              * A separate set of static fields exists for each specialized generic type (e.g., List<int> and List<string> have different static fields)."
              */
             #endregion
-
+            #region Q19
+            //Q19: How can you inherit from a generic class?
+            //Generic classes can inherit from non-generic classes, or other generic classes by either specifying the type ( class Sub : Base<int>) or remaining generic ( class Sub<T> : Base<T>).
+            #endregion
 
 
         }
