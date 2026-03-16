@@ -186,6 +186,14 @@ namespace G_Net_34_ADV01
             //Example       |IEnumerable<out T>      |Action<in T>
             //Think of as   |Producer of T           |Consumer of T
             #endregion
+            #region Q18
+            //Q18: How do static members work in generic types?
+            /*
+             * "Static members in generic classes are not shared across different type applications.
+             * A separate set of static fields exists for each specialized generic type (e.g., List<int> and List<string> have different static fields)."
+             */
+            #endregion
+
 
 
         }
