@@ -2,6 +2,7 @@
 using G_Net_34_ADV01.Classes.Q09;
 using G_Net_34_ADV01.Classes.Q11;
 using G_Net_34_ADV01.Classes.Q12;
+using G_Net_34_ADV01.Classes.Q20;
 using System.ComponentModel;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
@@ -197,7 +198,15 @@ namespace G_Net_34_ADV01
             //Q19: How can you inherit from a generic class?
             //Generic classes can inherit from non-generic classes, or other generic classes by either specifying the type ( class Sub : Base<int>) or remaining generic ( class Sub<T> : Base<T>).
             #endregion
+            #region Q20
+            //Q20: Complete Exercise - Create a generic Cache<TKey, TValue>with Add, Get, Remove, Contains, and expiration support. 
 
+            var myCache = new MyCache<string, string>(10);
+            myCache.Add("user1", "ActiveSession", 1);            
+            Console.WriteLine(myCache.Get("user1"));
+
+ 
+            #endregion
 
         }
         #region Swap Function
